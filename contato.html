@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DogClínica</title>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif;">
+
+  <!-- LOGO E MENU -->
+  <div class="Começo" style="background-color: #f2f2f2; padding: 1rem;">
+    <div class="Menu" style="display: flex; align-items: center; justify-content: space-between;">
+      
+      <!-- Logo -->
+      <div class="logo" style="flex: 1;">
+        <img src="https://w7.pngwing.com/pngs/711/768/png-transparent-white-and-brown-dog-illustration-emoji-emoticon-dog-smiley-whatsapp-emoji-carnivoran-dog-like-mammal-car.png" 
+        style="width: 75px; height: auto; margin-left: 1rem;" />
+      </div>
+      
+      <!-- Menu centralizado -->
+      <div class="menu-wrapper" style="flex: 1; display: flex; justify-content: center;">
+        <ul class="menu" style="list-style: none; display: flex; gap: 3rem; padding: 0; margin: 0;">
+          <li><a href="home.html" style="color: #b38849; text-decoration: none;">Home</a></li>
+          <li><a href="Sobre.html" style="color: #b38849; text-decoration: none;">Sobre a clínica</a></li>
+          <li><a href="contato.html" style="color: #b38849; text-decoration: none;">Contato</a></li>
+        </ul>
+      </div>
+
+      <!-- Espaço vazio à direita -->
+      <div style="flex: 1;"></div>
+
+    </div>
+  </div>
+
+  <!-- BANNER COM TEXTO -->
+  <div class="banner" style="background-image: url('https://img.freepik.com/fotos-premium/banner-ocultar-cachorro-engracado-surpreso-isolado-em-amarelo_77749-307.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;">
+    
+    <div class="text" style="background-color: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 10px;">
+      <h1 style="margin: 0;">Cuide do seu</h1>
+      <h1 style="margin: 0;">animal com os melhores</h1>      
+    </div>
+  </div>
+
+  <!-- TEXTO INFORMATIVO -->
+  <div class="content" style="width: 70%; margin: 2rem auto; font-family: Arial, sans-serif;">
+    <h2 style="text-align: center;">Nossos Serviços</h2>
+    <p style="text-align: center;">
+      Na <strong>Dog Clínica</strong>, oferecemos atendimento veterinário completo com amor e profissionalismo.
+      Realizamos consultas, vacinas, exames, banho e tosa, tudo com conforto e segurança para o seu pet.
+      Veja abaixo nossa tabela de preços por serviço e dia da semana:
+    </p>
+  
+    <table border="1" style="width: 100%; border-collapse: collapse; text-align: center; margin-top: 2rem;">
+      <thead style="background-color: #f2f2f2;">
+        <tr>
+          <th>Serviço</th>
+          <th>Segunda a Sexta</th>
+          <th>Sábado</th>
+          <th>Domingo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Consulta veterinária</td>
+          <td>R$ 80,00</td>
+          <td>R$ 90,00</td>
+          <td>R$ 100,00</td>
+        </tr>
+        <tr>
+          <td>Vacinação</td>
+          <td>R$ 60,00</td>
+          <td>R$ 70,00</td>
+          <td>R$ 80,00</td>
+        </tr>
+        <tr>
+          <td>Banho e tosa (pequeno porte)</td>
+          <td>R$ 50,00</td>
+          <td>R$ 60,00</td>
+          <td>R$ 70,00</td>
+        </tr>
+        <tr>
+          <td>Exames laboratoriais</td>
+          <td>R$ 120,00</td>
+          <td>R$ 130,00</td>
+          <td>R$ 140,00</td>
+        </tr>
+        <tr>
+          <td>Consulta de emergência</td>
+          <td>R$ 150,00</td>
+          <td>R$ 160,00</td>
+          <td>R$ 180,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FOOTER -->
+  <footer style="background-color: #b38849; color: white; padding: 1rem; position: relative; bottom: 0; width: 100%; display: flex; justify-content: center; align-items: center;">
+
+    <!-- Contêiner centralizado -->
+    <div style="display: flex; gap: 2rem; justify-content: center; align-items: center;">
+    
+      <!-- Iframe do Google Maps (lado esquerdo) -->
+      <div style="flex: 1; max-width: 600px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252836.63623107623!2d-35.099035190226665!3d-8.042938363460276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab196f94e5408b%3A0xe5800ef782bde3a6!2sRecife%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1746476725836!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Coluna de texto (lado direito) -->
+      <div style="flex: 1; text-align: right; max-width: 300px;">
+        <p>&copy; 2025 DogClínica. Todos os direitos reservados.</p>
+        <p>Contato: contato@dogclinica.com</p>
+        <p>Telefone: (81) 1234-5678</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
